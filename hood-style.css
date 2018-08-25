@@ -1,0 +1,34 @@
+.hood-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  height: auto;
+}
+#price{
+  text-align: center;
+}
+#hood-header{
+  text-align: center;
+}
+#hood-image{
+  justify-content: center;
+}
+.hood{
+  text-align: center;
+}
+@media screen and (max-width: 700px){
+  .hood-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    height: auto;
+  }
+}
+@media screen and (max-width: 600px){
+  .hood-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    height: auto;
+  }
+}
