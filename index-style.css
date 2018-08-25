@@ -71,9 +71,17 @@ a {
   display: grid;
   grid-template-columns:
 }
-/*@media screen and (max-width: 500px){
-    .items-container{
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-    }
-  }*/
+
+#polymer{
+  text-align: center;
+}
+
+#Demo{
+  text-align: center;
+  background-color: black;
+  color: white;
+  width: 40%;
+  margin-left: 30%;
+  height: 2%;
+  padding: 2%;
+}
