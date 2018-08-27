@@ -74,6 +74,7 @@ a {
 
 #polymer{
   text-align: center;
+  margin-top: 10%;
 }
 
 #demo{
@@ -84,4 +85,5 @@ a {
   margin-left: 30%;
   height: 2%;
   padding: 2%;
+  margin-top: 10%;
 }

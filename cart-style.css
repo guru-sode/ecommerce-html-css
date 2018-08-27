@@ -1,0 +1,60 @@
+#your-cart{
+  text-align: center;
+}
+#hood-in-cart{
+  height: 15%;
+  float: left;
+  clear: left;
+}
+#item-name{
+  margin-top: 7%;
+  margin-left: 0%;
+}
+.cart-container{
+  display: flex;
+  flex-direction: row;
+}
+.cart-image-container{
+  width: 100%;
+}
+.item-name-conatiner{
+  width: 100%;
+  margin-top: 5%;
+}
+#qty{
+  float: left;
+  clear: left;
+}
+.qty-drop-down{
+  background-color: white;
+  border-style: none;
+}
+.cart-details-container{
+  width: 100%;
+  margin-top: 5%;
+}
+.item-size-header{
+  width: 100%;
+  margin-top: 5%;
+}
+.item-price-container{
+  width: 100%;
+  margin-top: 5%;
+}
+#total-price{
+  margin-left: 50%;
+}
+#checkout{
+  border: 2px solid black;
+  text-align: center;
+  float: right;
+  height: 3%;
+  padding: 2%;
+}
+#total-price{
+  float: left;
+  clear: left;
+}
+.checkout-container{
+  display: flex;
+}

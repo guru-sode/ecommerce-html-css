@@ -1,0 +1,104 @@
+.checkout-main-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#place-oder-button{
+  border: 2px solid black;
+  padding: 2%;
+  text-align: center;
+  float: right;
+  margin-top: 30%;
+  margin-left: 0%;
+}
+#email{
+  border-style: none;
+  border-bottom: 1px solid black;
+}
+#phone-number{
+  border: none;
+  border-bottom: 1px solid black;
+  margin-top: 5%;
+}
+#adress{
+  border: none;
+  border-bottom: 1px solid black;
+}
+#city{
+  border: none;
+  border-bottom: 1px solid black;
+  margin-top: 5%;
+}
+#state{
+  border: none;
+  border-bottom: 1px solid black;
+  margin-top: 5%;
+  float: left;
+  clear: left;
+  width: 30%;
+}
+#postal-code{
+  border: none;
+  border-bottom: 1px solid black;
+  margin-top: 5%;
+  width: 30%;
+}
+.drop-down-country{
+  border: none;
+  background-color: white;
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+#card-holder{
+  border: none;
+  border-bottom: 1px solid black;
+  margin-top: 5%;
+}
+#card-number{
+  border: none;
+  border-bottom: 1px solid black;
+  margin-top: 5%;
+}
+.drop-down-month{
+  border: none;
+  background-color: white;
+  border-bottom: 1px solid black;
+  width: 20%;
+  float: left;
+  clear: left;
+}
+.drop-down-year{
+  border: none;
+  background-color: white;
+  border-bottom: 1px solid black;
+  width: 20%;
+  float: left;
+}
+#cvv{
+  border: none;
+  background-color: white;
+  border-bottom: 1px solid black;
+  width: 20%;
+}
+#full-zip{
+  float: left;
+  clear: left;
+}
+#price{
+  float: right;
+  clear: right;
+}
+#total{
+  float: left;
+  clear: left;
+}
+#total-50{
+  float: right;
+  clear: right;
+}
+
+@media screen and (max-width:650px) {
+  .checkout-main-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}

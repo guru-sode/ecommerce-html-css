@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<link href="index-style.css" rel='stylesheet'>
+<link href="checkout-style.css" rel='stylesheet'>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<header id="top-header"><a href="index.html">SHOP</a></header>
+<a href="cart.html"><img id="cart" src="cart.png"></a>
+<div class="checkout-main-container">
+  <div class="account-info-container">
+    <form>
+      <h3>Account information</h3>
+      <input  id="email" type="text" name="Email" placeholder="Email">
+      <br>
+      <input  id="phone-number" type="number" name="PhoneNumber" placeholder="Phone Number">
+      <h4>Shipping adress</h4>
+      <input id="adress" type="text" name="Adress" placeholder="Adress">
+      <br>
+      <input id="city" type="text" name="City" placeholder="City">
+      <br>
+      <input id="state" type="text" name="State" placeholder="State/Province">
+      <input id="postal-code" type="text" name="PostalCode" placeholder="Zip/Postal Code">
+      <h4>Country</h4>
+        <form>
+          <select class="drop-down-country">
+      <option id="value-country" value="unitedstates">United States</option>
+      <option id="value-country" value="canada">Canada</option>
+    </select>
+  </form>
+    </form>
+    <h4>Billing Address</h4>
+    <input type="checkbox" name="billing-address" value="male">Use different billing address<br>
+  </div>
+  <div class="payment-method-container">
+    <form>
+      <h3>Payment method</h3>
+      <input id="card-holder" type="text" name="cardholder" placeholder="cardholder Name">
+      <br>
+      <input id="card-number" type="number" name="cardnumber" placeholder="Card Number">
+      <h4>Expiry</h4>
+        <form>
+          <select class="drop-down-month">
+      <option id="value-month" value="jan">Jan</option>
+      <option id="value-month" value="feb">Feb</option>
+      <option id="value-month" value="mar">Mar</option>
+      <option id="value-month" value="apr">Apr</option>
+      <option id="value-month" value="may">May</option>
+      <option id="value-month" value="jun">Jun</option>
+      <option id="value-month" value="jul">Jul</option>
+      <option id="value-month" value="aug">Aug</option>
+      <option id="value-month" value="sep">Sep</option>
+      <option id="value-month" value="oct">Oct</option>
+      <option id="value-month" value="nov">Nov</option>
+      <option id="value-month" value="dec">Dec</option>
+    </select>
+        </form>
+          <form>
+            <select class="drop-down-year">
+        <option id="value-year" value="2016">2016</option>
+        <option id="value-year" value="2017">2017</option>
+        <option id="value-year" value="2018">2018</option>
+        <option id="value-year" value="2019">2019</option>
+        <option id="value-year" value="2020">2020</option>
+        <option id="value-year" value="2021">2021</option>
+        <option id="value-year" value="2022">2022</option>
+        <option id="value-year" value="2023">2023</option>
+        <option id="value-year" value="2024">2024</option>
+        <option id="value-year" value="2025">2025</option>
+        <option id="value-year" value="2026">2026</option>
+      </select>
+          </form>
+          <input id="cvv" type="number" name="cvv" placeholder="CVV">
+    </form>
+    <h4>Order Summary</h4>
+    <p id="full-zip">Men's Tech shell full zip </p>
+    <p id="price">$50.20</p>
+    <p id="total">Total</p>
+    <p id="total-50">$50.20</p>
+    <h3><a id="place-oder-button" href="#">PLACE ORDER</a></h3>
+  </div>
+</div>
+</html>
