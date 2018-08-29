@@ -9,16 +9,34 @@
   <div class="account-info-container">
     <form>
       <h3>Account information</h3>
-      <input  id="email" type="text" name="Email" placeholder="Email">
+      <div>
+      <input  id="email" type="text" required/>
+      <span id="floating-label">Email</span>
+    </div>
       <br>
-      <input  id="phone-number" type="number" name="PhoneNumber" placeholder="Phone Number">
+      <div>
+      <input  id="phone-number" type="text" required/>
+      <span id="phone-number-floating-label">Phone Number</span>
+    </div>
       <h4>Shipping adress</h4>
-      <input id="adress" type="text" name="Adress" placeholder="Adress">
+      <div>
+      <input id="adress" type="text" required/>
+      <span id="adress-floating-label">Adress</span>
+    </div>
       <br>
-      <input id="city" type="text" name="City" placeholder="City">
+      <div>
+      <input id="city" type="text" required/>
+      <span id="city-floating-label">City</span>
+    </div>
       <br>
-      <input id="state" type="text" name="State" placeholder="State/Province">
-      <input id="postal-code" type="text" name="PostalCode" placeholder="Zip/Postal Code">
+      <div>
+      <input id="state" type="text" required/>
+      <span id="state-floating-label">State/Province</span>
+    </div>
+    <div>
+      <input id="postal-code" type="text" required/>
+      <span id="postal-code-floating-label">Postal Code</span>
+    </div>
       <h4>Country</h4>
         <form>
           <select class="drop-down-country">
@@ -33,9 +51,15 @@
   <div class="payment-method-container">
     <form>
       <h3>Payment method</h3>
-      <input id="card-holder" type="text" name="cardholder" placeholder="cardholder Name">
+      <div>
+      <input id="card-holder" type="text" required/>
+      <span id="card-holder-floating-label">Cardholder Name</span>
+    </div>
       <br>
-      <input id="card-number" type="number" name="cardnumber" placeholder="Card Number">
+      <div>
+      <input id="card-number" type="text" required/>
+      <span id="card-number-floating-label">Card Number</span>
+</div>
       <h4>Expiry</h4>
         <form>
           <select class="drop-down-month">
@@ -75,7 +99,7 @@
     <p id="price">$50.20</p>
     <p id="total">Total</p>
     <p id="total-50">$50.20</p>
-    <h3><a id="place-oder-button" href="#">PLACE ORDER</a></h3>
+    <p><a id="place-oder-button" href="#">PLACE ORDER</a></p>
   </div>
 </div>
 </html>
